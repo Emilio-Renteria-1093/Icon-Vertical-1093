@@ -28,22 +28,22 @@ class MisIcons extends StatelessWidget {
             children: [
               Column(
                 children: [
-                  Icon(Icons.home, size: 50, color: Colors.blue),
-                  Text('Inicio', style: TextStyle(fontSize: 16, color: Colors.blue)),
+                  Icon(Icons.computer, size: 50, color: Colors.blue),
+                  Text('soporte', style: TextStyle(fontSize: 16, color: Colors.blue)),
                 ],
               ),
               SizedBox(height: 20),
               Column(
                 children: [
-                  Icon(Icons.star, size: 50, color: Colors.amber),
-                  Text('Favoritos', style: TextStyle(fontSize: 16,color: Colors.amber)),
+                  Icon(Icons.shopping_cart, size: 50, color: Colors.amber),
+                  Text('carrito', style: TextStyle(fontSize: 16,color: Colors.amber)),
                 ],
               ),
               SizedBox(height: 20),
               Column(
                 children: [
-                  Icon(Icons.favorite, size: 50, color: Colors.red),
-                  Text('Me gusta', style: TextStyle(fontSize: 16,color: Colors.red)),
+                  Icon(Icons.location_on, size: 50, color: Colors.red),
+                  Text('localizacion', style: TextStyle(fontSize: 16,color: Colors.red)),
                 ],
               ),
               SizedBox(height: 20),
@@ -51,6 +51,13 @@ class MisIcons extends StatelessWidget {
                 children: [
                   Icon(Icons.person, size: 50, color: Colors.green),
                   Text('Perfil', style: TextStyle(fontSize: 16, color: Colors.green)),
+                ],
+              ),
+              SizedBox(height: 20),
+              Column(
+                children: [
+                  Icon(Icons.chat_bubble_outline, size: 50, color: const Color.fromRGBO(73, 54, 244, 1)),
+                  Text('cotizaciones', style: TextStyle(fontSize: 16,color: const Color.fromRGBO(73, 54, 244, 1))),
                 ],
               ),
             ],
